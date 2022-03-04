@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jennifer Long, Danelle Cook, Chineze Okpala, Hari Somayajula, Abishua Prashanth, and Randy Weaver">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>MBTI Predictions</title>
+        <link href="https://getbootstrap.com/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <!--<span class="fs-4">Fossil Fuels Impact Project</span>-->
+              </a>
+        
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
+                <!-- <li class="nav-item"><a href={{content_1_location}} class="nav-link">{{content_1_title}}</a></li>
+                <li class="nav-item"><a href={{content_2_location}} class="nav-link">{{content_2_title}}</a></li> -->
+                <li class="nav-item"><a href="https://github.com/tnnixon/PredictingMBTI" class="nav-link">About</a></li>
+              </ul> 
+            </header>
+        </div>
+        <div class="container">
+    <!--
+            <div class="jumbotron text-center">
+               
+                <h1>{{ heading }}</h1>
+                <h2>{{ heading2 }}</h2>
+                <ul>
+                    <li>{{ content_1_location }}</li> 
+                    <li>{{ content_2_location }}</li>
+                </ul>
+            </div>
+            
+            <p> Click <a href={{content_1_location}}>here</a> to visit the {{content_1_title}} page!</p>
+        </div>
+    -->
+
+    <div class="row p-3 mb-2 bg-primary text-white">
+        <div class="col-md-12 jumbotron text-center">
+          <h1>MBTI Personality Prediction</h1>
+          <p>Enter Text your text below and click on Predict</p>
+        </div>
+      </div>
+      <br><hr>
+      <div class="row input-group">
+        <!-- <div class="col-md-6">
+          <div class="well">
+            <h5><b>Select Country:</b></h5>
+            <select id="selCountry" onchange="countryOptionChanged(this.value)"></select>
+          </div>
+          
+        </div> 
+        <div class="col-md-6">
+            <div class="well">
+              <h5><b>Select Years:</b></h5>
+              <select id="selYear" onchange="yearsOptionChanged(this.value)"></select>
+            </div> 
+        </div> -->
+		<div class="input-group-prepend">
+		<!-- <span class="input-group-text"></span> -->
+		</div>
+		<textarea id="predictclick" class="form-control" aria-label="With textarea"></textarea>
+		<button type="submit" class="btn btn-primary" onclick="button_predict()">Predict</button>
+      </div>
+      <div class="col-md-12 text-center">
+        <h1>Personality Type</h1>
+        <p id="person-type"></p>
+      </div>
+      <!-- <br><hr>
+      <div class="row p-3 mb-2 bg-secondary text-white">
+        <div class="col-md-6">
+            <div id="fuel-prod-bar"></div>
+        </div>
+        <div class="col-md-6">
+            <div id="fuel-cons-bar"></div>
+        </div>
+      </div>
+      <div class="row p-3 mb-2 bg-secondary text-white">
+        <div class="col-md-6">
+            <div id="gdp-line"></div>
+        </div>
+        <div class="col-md-6">
+            <div id="co2-line"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="bubble"></div>
+        </div>
+      </div> -->
+
+
+    <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+   <!--- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+    <script src="../static/app.js"></script>
+    
+    </body>
+
+</html>
