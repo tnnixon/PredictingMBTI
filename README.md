@@ -14,7 +14,8 @@ The dataset contains ~8600 observations (people), where each observation gives a
   <li> Myers-Briggs personality type (as a 4-letter code) </li>
   <li> An excerpt containing the last 50 posts on their PersonalityCafe forum (each entry separated by “|||”) </li>
   </ul>
-  Data from https://www.kaggle.com/datasnaek/mbti-type was used for supervised ML
+  Data from https://www.kaggle.com/datasnaek/mbti-type was used for supervised ML<br>
+  Presentation: https://docs.google.com/presentation/d/1MS5NI7GGJzh51OxxgC4yXFF7KudZNkmj/edit?usp=sharing&ouid=108140751856213571221&rtpof=true&sd=true
 </p>
 <h1> Method Summary </h1>
 <p>
