@@ -19,8 +19,8 @@ The dataset contains ~8600 observations (people), where each observation gives a
 <h1> Method Summary </h1>
 <p>
   <ul>
-  <li> Cleaned the text of all puncation and stopwords (using nlt.stopwords).</li>
-  <li> Tokenized (using nlkt.word_toeknize) and lemmatized (using nltk.WrodNetLemmatizer).</li>
+  <li> Cleaned the text of all punctuation  and stopwords (using nlt.stopwords).</li>
+  <li> Tokenized (using nlkt.word_toeknize) and lemmatized (using nltk.WordNetLemmatizer).</li>
   <li> Created a bag of words for each personality type (I,E,N,S,T,F,j & P) </li>
   <li> Ran word frequencies (using nltk.FreqDist) and NaiveBayesClassifier to classsify and predict. To Classify and predict E&I,N&S,T&F,J&P are grouped together.</li>
   </ul>
