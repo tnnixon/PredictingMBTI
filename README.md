@@ -42,6 +42,8 @@ The dataset contains ~8600 observations (people), where each observation gives a
    <li> Sentiment Analysisusing TextBlob </li>
    <li> Comparision Frequent Words used by Trait </li>
    <li> Comparision Biagram frequency of  Words used by Trait </li>
+   <li> Linear Regression </li>
+   <li> Random Forest Classifier </li>
    
    
    
